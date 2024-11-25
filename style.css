@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    
+    padding: 0;
+    box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+background-color:white
+
+    
+}body{
+
+display: flex;
+
+    justify-content: center;
+    align-items: center;
+   
+background-color: #f3edf1;
+min-height: 100vh;
+
+    
+
+}
+
+
+
+
+
+
+
+
+.resume-container{
+    position: relative;
+margin:0 auto;
+    width: 80%;
+    max-width: 800px;
+    min-height: 100px;
+    background-color: white;
+    display: grid;
+    
+    box-shadow: 0 white;
+    padding: 20px;
+    border-radius: 8px;
+    
+    
+    
+}
+ 
+ 
+  .profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(99, 98, 100);
+    padding-left: 10px;
+    margin-left: 5px;
+
+  }  .profileText .imgBx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+
+  }
+  .profileText .imgBx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+    
+   .profileText h1{
+    color: #f3edf1;
+    font-size: 1.5rem;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4rem;
+    margin-bottom: 10px;
+   } 
+   .profileText h2 nbps{
+    font-size: 0.9rem;
+   }
+   
+   
+   .title{
+    color: #f3edf1;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+   }
+   
+
+
+   
+    
+   
+
+
+.resume-container.right-side{
+    position: relative;
+    background-color: #1b1a1b;
+    padding: 40px;
+
+}
+
+
+    
+
+
+.profile picture {
+
+    
+margin-top: 10px;
+background-color: rgb(225, 219, 236);
+border-radius: 10%;
+border: 5px solid red;
+margin-bottom:20px 
+
+}
+
+
+h1 {
+font-style: italic,bold;
+    text-align: left;
+    margin: 10 0;
+    margin-bottom: 30px ;
+    font-size: 20px;
+    border-radius: 30px;
+    
+}
+h3{
+    font-size: 18px;
+    padding: 2%;
+    margin: 20px 0 10px;
+    border-radius: 10px;
+    text-align: left;
+    color: rgb(10, 9, 10);
+    box-shadow: 0 0 10px rgb(116, 10, 98);
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+ul  {
+    list-style-type: disc ;
+    padding-left:  20px;
+    margin:  0;
+
+}
+ul li{
+    margin: 0 ;
+    padding: 0;
+    list-style-type: none;;
+
+}
+li{
+    margin-bottom: 5px;
+}
+
+
+button{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    align-self: center;
+    
+    
+}
+button:hover {
+    background-color: purple;
+}
